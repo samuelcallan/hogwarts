@@ -48,7 +48,4 @@ public class ArtifactController {
         return new Result(true, StatusCode.SUCCESS, "Delete Success");
     }
 
-
-
-
 }

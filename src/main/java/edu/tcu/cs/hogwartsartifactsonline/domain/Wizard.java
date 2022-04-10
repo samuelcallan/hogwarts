@@ -7,6 +7,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+@Entity
 public class Wizard implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
